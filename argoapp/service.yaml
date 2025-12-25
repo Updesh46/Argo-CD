@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
-  namespace: updeshargocd
+  # namespace: argocd
 spec:
   selector:
     app: nginx
